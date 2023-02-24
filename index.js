@@ -1,7 +1,7 @@
-const jsonfile = import('jsonfile');
-const moment = import('moment');
-const simpleGit = import('simple-git');
-const random = import('random-int');
+const jsonfile = require('jsonfile');
+const moment = require('moment');
+const simpleGit = require('simple-git');
+const random = require('random-int');
 const FILE_PATH = './data.json';
 
 const makeCommit = (n) => {
